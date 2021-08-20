@@ -1,0 +1,9 @@
+greeting:
+  message: "hello"
+quarkus:
+  http:
+    body:
+      handle-file-uploads: true
+    limits:
+      max-chunk-size: 18192
+      max-body-size: 1073741824
